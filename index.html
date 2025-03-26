@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game ScoreBoard</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main>
+        <figure>
+            <img src="win.jpg" alt="motivation to win ">
+            <figcaption>Photo by Olena Bohovyk</figcaption>
+        </figure>
+        <section>
+            <h1 id="scores">
+                <span id="playerOneScore">0</span> :
+                <span id="playerTwoScore">0</span>
+            </h1>
+            <p id="instruction">use the buttons below to keep the score</p>
+            <form>
+                <label for="game-limit">Playing to :</label>
+                <select name="gameLimit" id="game-limit">
+                    
+                    <option value="10" selected>10</option>
+                    <option value="9">9</option>
+                    <option value="8">8</option>
+                    <option value="7">7</option>
+                    <option value="6">6</option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                </select>
+
+
+            </form>
+
+            <div id="buttons">
+                <button id="player1Btn"><b>+1</b> Player 1</button>
+                <button id="player2Btn"><b>+1</b> Player 2</button>
+                <button id="reset">Reset</button>
+            </div>
+        </section>
+    </main>
+
+
+<script src="ping.js"></script>
+</body>
+</html>
