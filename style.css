@@ -31,6 +31,7 @@ section{
         color: grey;
         margin: 20px 0;
         font-variant: small-caps;
+        text-align:center;
     }
 
     form  {
